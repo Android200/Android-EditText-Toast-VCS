@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText lastname = (EditText)findViewById(R.id.lastname);
         final EditText phoneNum = (EditText)findViewById(R.id.phoneNum);
         final EditText email = (EditText)findViewById(R.id.email);
+        //This button handles the clicklistener
         final Button VIEW= (Button) findViewById(R.id.VIEW);
         VIEW.setOnClickListener(new View.OnClickListener() {
             @Override
