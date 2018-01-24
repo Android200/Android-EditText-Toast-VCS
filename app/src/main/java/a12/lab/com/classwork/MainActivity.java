@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),
                         firstname.getText().toString() + " " +
                                 lastname.getText().toString()+" "+
-                                phoneNum.getText().toString(), Toast.LENGTH_SHORT).show();
-
+                                phoneNum.getText().toString()+" "+
+                                email.getText().toString(), Toast.LENGTH_SHORT).show();
             }
         });
 
