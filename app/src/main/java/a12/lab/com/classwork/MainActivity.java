@@ -15,8 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final EditText firstname = (EditText)findViewById(R.id.firstname);
         final EditText lastname = (EditText)findViewById(R.id.lastname);
+        //This EditText handles phone number
         final EditText phoneNum = (EditText)findViewById(R.id.phoneNum);
-        ////This EditText handles emails
+        //This EditText handles emails
         final EditText email = (EditText)findViewById(R.id.email);
         //This button handles the clicklistener
         final Button VIEW= (Button) findViewById(R.id.VIEW);
