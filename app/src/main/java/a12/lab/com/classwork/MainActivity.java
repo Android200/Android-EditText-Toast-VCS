@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final EditText firstname = (EditText)findViewById(R.id.firstname);
+        //This EditText handles last name
         final EditText lastname = (EditText)findViewById(R.id.lastname);
         //This EditText handles phone number
         final EditText phoneNum = (EditText)findViewById(R.id.phoneNum);
