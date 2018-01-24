@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         VIEW.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //Added a comment
                 Toast.makeText(getApplicationContext(),
                         firstname.getText().toString() + " " +
                                 lastname.getText().toString()+" "+
